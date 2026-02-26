@@ -95,15 +95,15 @@ Although K=2 produced the highest silhouette score (~0.43), K=4 was selected to 
 ## 📈 Visualizations
 
 ### Customer Distribution Across Clusters
-![Cluster Distribution](images/Customer Distribution Across Clusters.png)
+![Cluster Distribution](images/customer_distribution.png)
 
 ### Standardized RFM Comparison
-![RFM Comparison](images/Average Recency Per Customer.png)
-![RFM Comparison](images/Average Frequency Per Customer.png)
-![RFM Comparison](images/Average Monetary Per Customer.png)
+![RFM Comparison](images/recency_per_customer.png)
+![RFM Comparison](images/frequency_per_customer.png)
+![RFM Comparison](images/monetary_per_customer.png)
 
 ### PCA Projection of Clusters
-![PCA Clusters](images/Customer Segmentation - PCA.png)
+![PCA Clusters](images/pca_clusters.png)
 
 ---
 
