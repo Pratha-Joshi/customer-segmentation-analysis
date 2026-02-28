@@ -1,14 +1,14 @@
 # Customer Segmentation Analysis using RFM and K-Means
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs end-to-end customer segmentation using the RFM (Recency, Frequency, Monetary) framework and K-Means clustering.
 
-The objective is to identify distinct customer groups based on purchasing behavior and derive actionable marketing strategies to improve retention and revenue.
+The objective is to identify distinct customer groups based on purchasing behavior and derive actionable strategies to improve retention and revenue.
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 E-commerce companies often struggle to:
 
@@ -21,7 +21,7 @@ This project addresses these challenges by segmenting customers into behavior-ba
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source:** Online Retail Dataset  
 - **Provider:** UCI Machine Learning Repository  
@@ -42,7 +42,7 @@ After cleaning, the dataset contains:
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 The following preprocessing steps were applied:
 
@@ -53,7 +53,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 🧠 Feature Engineering (RFM)
+## Feature Engineering (RFM)
 
 RFM metrics were calculated per customer:
 
@@ -68,7 +68,7 @@ To prepare for clustering:
 
 ---
 
-## 🔍 Model Selection
+## Model Selection
 
 K-Means clustering was applied to the scaled RFM features.
 
@@ -81,18 +81,18 @@ Although K=2 produced the highest silhouette score (~0.43), K=4 was selected to 
 
 ---
 
-## 📊 Customer Segments Identified
+## Customer Segments Identified
 
 | Cluster | Segment Name | Description |
 |----------|--------------|-------------|
-| 1 | VIP / Champions | Recent, high-frequency, high-spending customers |
 | 0 | New / Occasional | Recent but low-frequency customers |
+| 1 | VIP / Champions | Recent, high-frequency, high-spending customers |
 | 2 | Loyal but Cooling | Moderate spenders with declining recency |
 | 3 | Dormant / Lost | Inactive, low-frequency, low-value customers |
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### Customer Distribution Across Clusters
 ![Cluster Distribution](images/customer_distribution.png)
@@ -107,7 +107,7 @@ Although K=2 produced the highest silhouette score (~0.43), K=4 was selected to 
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 - **VIP Customers:** Loyalty rewards, premium offers, early access programs  
 - **Loyal but Cooling:** Re-engagement campaigns and personalized incentives  
@@ -116,7 +116,7 @@ Although K=2 produced the highest silhouette score (~0.43), K=4 was selected to 
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Python  
 - Pandas  
@@ -128,7 +128,7 @@ Although K=2 produced the highest silhouette score (~0.43), K=4 was selected to 
 
 ---
 
-## 🚀 Key Takeaways
+## Insights
 
 - A small percentage of customers (VIP segment) generate the majority of revenue.  
 - Large customer base does not necessarily imply high value.  
@@ -137,6 +137,4 @@ Although K=2 produced the highest silhouette score (~0.43), K=4 was selected to 
 
 ---
 
-## 📜 License
 
-This project is licensed under the MIT License.
